@@ -18,12 +18,17 @@ export default function Home() {
       <header className="text-white p-4">
         <nav className="flex justify-end">
           <div className="flex gap-4 mr-10">
-            <a href="https://twitter.com/notFair_io" className="fill-white">
+            <a
+              href="https://twitter.com/notFair_io"
+              className="fill-white"
+              target="_blank"
+            >
               <Image src={x} alt="X" className="size-10"></Image>
             </a>
             <a
               href="https://twitter.com/notFair_io"
               className="hover:underline"
+              target="_blank"
             >
               <Image src={discord} alt="Discord" className="size-10"></Image>
             </a>
