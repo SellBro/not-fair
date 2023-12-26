@@ -18,10 +18,13 @@ export default function Home() {
       <header className="text-white p-4">
         <nav className="flex justify-end">
           <div className="flex gap-4 mr-10">
-            <a href="https://twitter.com" className="fill-white">
+            <a href="https://twitter.com/notFair_io" className="fill-white">
               <Image src={x} alt="X" className="size-10"></Image>
             </a>
-            <a href="https://discord.com" className="hover:underline">
+            <a
+              href="https://twitter.com/notFair_io"
+              className="hover:underline"
+            >
               <Image src={discord} alt="Discord" className="size-10"></Image>
             </a>
           </div>
@@ -29,16 +32,16 @@ export default function Home() {
       </header>
 
       <main className="flex-grow flex items-center justify-center p-4">
-        <div className="container mx-auto flex items-start justify-between">
-          <div className="w-1/2 flex flex-col items-center">
-            <h1 className="font-header text-9xl font-semibold mb-4 text-white">
+        <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
+          <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start mb-8 lg:mb-0">
+            <h1 className="font-header text-6xl lg:text-9xl font-semibold mb-4 text-white">
               notFair
             </h1>
-            <h2 className="font-text text-2xl mb-4 text-white">
+            <h2 className="font-text text-xl lg:text-2xl mb-4 text-white">
               WE'RE FACK'N <span className="line-through">EARLY</span> FAIR
             </h2>
           </div>
-          <div className="w-1/2 self-start">
+          <div className="w-full lg:w-1/2">
             <Image
               src={pepe}
               alt="notFair Mascot"
