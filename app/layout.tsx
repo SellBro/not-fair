@@ -5,11 +5,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "notFair",
-  description: "First coin on the first zk blockchain",
   openGraph: {
     title: "notFair",
     description: "First coin on the first zk blockchain",
+    type: "website",
+    url: "www.notfair.io",
+    siteName: "notFair",
   },
 };
 
@@ -20,9 +21,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <meta name="notFair" content="First coin on the first zk blockchain" />
-      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
