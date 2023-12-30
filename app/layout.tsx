@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "notFair",
   description: "First coin on the first zk blockchain",
+  openGraph: {
+    title: "notFair",
+    description: "First coin on the first zk blockchain",
+  },
 };
 
 export default function RootLayout({
