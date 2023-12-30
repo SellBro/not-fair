@@ -27,6 +27,7 @@ export default function RootLayout({
           property="description"
           content="First coin on the first zk blockchain"
         />
+        <meta prefix="og: http://ogp.me/ns#" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
