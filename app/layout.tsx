@@ -20,7 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <meta name="notFair" content="First coin on the first zk blockchain" />
+      <head>
+        <meta name="notFair" content="First coin on the first zk blockchain" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
