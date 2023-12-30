@@ -24,7 +24,7 @@ export default function RootLayout({
       <head>
         <title>notFair</title>
         <meta
-          property="description"
+          name="description"
           content="First coin on the first zk blockchain"
         />
         <meta prefix="og: http://ogp.me/ns#" />
