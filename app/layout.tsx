@@ -4,16 +4,6 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  openGraph: {
-    title: "notFair",
-    description: "First coin on the first zk blockchain",
-    type: "website",
-    url: "www.notfair.io",
-    siteName: "notFair",
-  },
-};
-
 export default function RootLayout({
   children,
 }: {
