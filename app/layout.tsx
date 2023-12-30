@@ -21,6 +21,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>notFair</title>
+        <meta
+          property="description"
+          content="First coin on the first zk blockchain"
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
